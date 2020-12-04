@@ -9,14 +9,61 @@ $ t \leftarrow a, a \leftarrow b, b \leftarrow c, c \leftarrow d, d \leftarrow t
 \end{item}
 
 
-# George P\'olya and Gabor Szeg\"o.
-
-# \I'm \exercise3.1\\!
+\begin{item}
+  At step {\bf[E3]} $r$ is assigned to $n$ and $n$ to $m$. As $r$ is reminder of division of $m$ by $n$, $r$ should be $< n$. Hence $m < n$. 
+\end{item}
 
 \begin{item}
+
+  Below are the steps of modified algorithm {\bf[F]} which takes $m$ and $n$ as input.
+  
+  {\bf[F1]} Divide $m$ by $n$ and let the reminder by $r$.
+
+  {\bf[F2]} if $r = 0$ return $n$. Terminate
+
+  {\bf[F3]} Invoke {\bf[F]} with $n$, $r$ as input and return result.
+\end{item}
+
+
+\begin{item}
+
+  57
   
 \end{item}
 
+
+\begin{item}
+
+  From the procedure reading the book following properties are missing which means it's not a proper algorithm.
+  \begin{itemize}
+    \begin{item}
+      Finiteness is missing - the whole procedure goes in a loop and does not actually terminate.
+    \end{item}
+
+    \begin{item}
+      Output is missing - the procedure does not a definite output.
+    \end{item}
+
+    \begin{item}
+      Effectiveness is missing - The steps cannot be done on pencil/paper or a real computer realistically.
+    \end {item}
+
+    Comparison with {\bf[E]}:
+    {\bf[E]} terminates after finite number of steps and is effective(steps can be performed on pen and paper and has definite output.
+  \end{itemize}
+\end{item}
+
+\begin{item}
+
+ The answer should be close to 3. I dint calculate the exact value though.
+  
+\end{item}
+
+\begin{item}
+
+  $T_{m} +1 = U_{m}$
+
+\end{item}
 
 
 \end{enumerate}
