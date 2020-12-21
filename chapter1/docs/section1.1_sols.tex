@@ -75,9 +75,175 @@ $ t \leftarrow a, a \leftarrow b, b \leftarrow c, c \leftarrow d, d \leftarrow t
 
 \end{enumerate}
 
-\subsection{Mathematics Preliminary}
+\subsection{Mathematics Preliminaries}
 \subsubsection{Solutions for section 1.2.1}
+\begin{enumerate}
+  \begin{item}
+    Prove that $P(0)$ is true.
+    Prove that Given $P(0) \ldots P(n)$ is true than $ P(n+1) $ is also true for $n \ge 0$
+  \end{item}
 
+  \begin{item}
+    In the second step its being assumed that $ \frac{a^{n-1}}{a^{(n-1)-1}} $ is $a$ then in very next step everything is replaced by 1. This essentially means $a = 1$ all the time which is incorrect.
+  \end{item}
+  
+  \begin{item}
+    For $n = 1$ only the right hand side of the equation is being verified while on left hand side divide by zero operation occurs which is invalid.
+  \end{item}
+
+  \begin{item}
+    for $n=1$ $F_n = 1 \ge \phi^{-1}$ (which is $0.618$)
+    We may assume by induction that $F_n \ge \phi^{(n-2)}$
+
+    Now, $F_{n+1} = F_{n-1} + F_n \ge (\phi^{n-3} + \phi^{n-2}) = \phi^{n-2}(\frac{1}{\phi} + 1) =
+    \phi^{n-2} \times \phi = \phi^{n-1}$
+
+    Hence $F_{n+1} \ge \phi^{n-1} $ for all $ n \ge 1 $
+    
+  \end{item}
+  \begin{item}
+    We may assume by induction that all the numbers till $n$ are either primes or product of primes. Now for n + 1 the number can either be prime or in form $x \times y$. As $x < (n + 1), y < (n+1)$ they themselves must be prime or product of primes. Hence $n+1$ takes the required form.
+  \end{item}
+
+  \begin{item}
+    The second equation gets transformed into first one once the swap of values happens in {\it{E4}}.( $c \leftarrow d, a^\prime \leftarrow a, b^\prime \leftarrow b )$. Hence it holds true.
+
+    The first equation is -
+
+    $am + bn  = d $
+
+    Substituting values this becomes
+
+    $ (a^{\prime} - qa)m + (b^\prime - qb)n = r$
+
+    $ a^{\prime} + b^{\prime} - q(am + bn)$
+
+    $ c - qd =  r $ (from A6).
+
+    $ qd - qd + r = r$
+
+  \end{item}
+  
+\end{enumerate}
 \subsubsection{Solutions for section 1.2.2}
+
+\begin{enumerate}
+  \begin{item}
+    There is no smallest rational number.
+  \end{item}
+
+  \begin{item}
+    $1 + 0.239999999\ldots$ is not a decimal expansion as it ends with infinite $9$s sequence.
+  \end{item}
+
+  \begin{item}
+    Applying {\it eq 4} $ (-3)^{-3} = \frac{(-3)^{-2}}{-3} = \frac{(-3)^{-1}}{-3 \times -3} =
+    \frac{(-3)^{0}}{-3 \times -3 \times-3} = -{\frac{1}{27}}
+    $
+  \end{item}
+
+  \begin{item}
+    By {\it eq 4 and 6} $(0.125)^{-\frac{2}{3}} = \sqrt[3]{0.125^{-2}} = \sqrt[3]{\frac{1}{0.125} \times \frac{1}{0.125}} = \sqrt[3]{10^6/5^6} = \frac{100}{25} = 4$
+  \end{item}
+
+  \begin{item}
+    Decimal expansion -
+
+    $n + 0.d_1d_2\ldots$
+
+    Binary expansion - convert each digit to binary form of $0$ and $1$ once you have decimal expansion for a real number.
+
+    $p_1p_2\ldots + 0.q_1q_2\ldots$ where $p_i, q_i \in \{0,1\}$
+  \end{item}
+
+  \begin{item}
+
+    $x = m + 0.d_1d_2d_3\ldots$ $y = n + 0.e_1e_2e_3\ldots$
+
+    $x = y$ if $ m = n $ and $ d_i = e_i $ for all $i$
+
+    $x < y$ if $ m < n $ or if $ m = n $ and $d_i < e_i$ for some i such that $ d_1d_2d_3\ldots d_{i-1} = e_1e_2e_3\ldots e_{i-1} $
+
+    $x > y$ if $ m > n $ or if $ m = n $ and $d_i > e_i$ for some i such that $ d_1d_2d_3\ldots d_{i-1} = e_1e_2e_3\ldots e_{i-1} $
+
+    
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+  \begin{item}
+  \end{item}
+
+
+  
+\end{enumerate}
+
 
 \end{document}
