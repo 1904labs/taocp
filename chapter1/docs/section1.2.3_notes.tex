@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+\title{Sums and Products}
+\begin{document}
+\maketitle
+% \begin{slide}
+  \begin{center}
+    Sums
+  \end{center}  
+   Sum of $a_1,a_2 \ldots a_n$ is written as $$\sum_{j=1}^n {a_j} $$ or $$ \sum_{1 \le j \le n}a_j $$
+
+   $j$ is {\sl dummy} or {\sl index} variable introduced just for the purpose of notation.
+
+   Context is important - {\sl e.g.} $$ \sum _ {j \le k}{j+k \choose  2j -k}$$
+
+   In the above case only if either $i$ or $j$ (not both) have exterior significance.
+
+   Finite/Infinte summation -
+
+   Example of finite summation ---
+
+   $$ \sum_{1 \le j <10}{a_j} $$
+
+   Example of infinite summation ---
+
+   $$ \sum_{j \ge 1}{a_j} =  \sum_{j=1}^{\infty}{a_j} $$
+   
+   Divergent and convergent summation -
+
+   $$  \sum_{R(j)}a_j = \left( \lim_{n\to\infty}\sum_{\scriptstyle R(j) \atop \scriptstyle 0  \le j < n} a_j \right) +
+   \left( \lim_{n\to\infty}\sum_{\scriptstyle R(j) \atop  \scriptstyle -n \le j < 0}  a_j \right)  $$ 
+
+   If the above limits exits the summation is called {\sl convergent} otherwise its a {\sl divergent} summation.
+
+   Four algebraic oerations on summations ---
+
+   \begin{enumerate}
+     \begin{item}
+       {\sl The distributive law}, for product of sums
+       $$ \left(\sum_{R(i)}a_i\right) \left(\sum_{S(j)}b_j\right) = \sum_{R(i)}\left(\sum_{S(j)}a_ib_j\right) = \sum_{R(i)}\sum_{S(j)}a_{ij} $$
+     \end{item}
+     \begin{item}
+       {\sl The Change of variable}
+       $$\sum_{R(i)}a_i = \sum_{R(j)}a_j = \sum_{R(p(j))}a_{p(j)} $$
+
+       $$\sum_{1 \le j \le n}a_j = \sum_{1 \le j-1 \le n }a_{j-1} = \sum_{2 \le j \le n+1}a_{j-1} $$
+       
+     \end{item}
+     \begin{item}
+       {\sl Interchanging order of summation}
+       $$\sum_{R(i)}\sum_{S(j)} a_{ij} = \sum_{S(j)}\sum_{R(i)} a_{ij} $$
+
+       $$\sum_{i=1}^n\sum_{j=1}^i a_{ij} = \sum_{j=1}^n\sum_{i=j}^n a_{ij} $$
+     \end{item}
+     \begin{item}
+       {\sl Manipulating the domain}
+
+       $$ \sum_{R(j)} a_j +  \sum_{S(j)} a_j  =  \sum_{R(j) or S(j)} a_j +  \sum_{R(j) and S(j)} a_j $$
+     \end{item}
+   \end{enumerate}
+   
+   Bracket Notation and {\sl Kronecker delta}
+
+   $$[\mbox{statment}] = \Biggr\{\begin{array}{ll} 1 & \mbox{if the statement is true}\\
+     0 & \mbox{if the statement is false.}
+     \end{array}
+   $$
+
+   $$\delta_{ij} = [i = j] = \Biggr\{ \begin{array}{ll} 1 & \mbox{if $i = j$} \\
+     0 &  \mbox{if $i \ne j$} 
+   \end{array} $$
+
+%\end{slide}
+
+%\begin{slide}
+  \begin{center}
+    Products
+  \end{center}
+
+  Default value of Product is 1 not 0
+
+  \begin{equation}
+    \prod_{R(j)}a_j
+  \end{equation}
+  
+
+  
+%\end{slide}
+
+
+\end{document}
