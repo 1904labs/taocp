@@ -1,1 +1,12 @@
+\documentclass{article}
 \title{1.2.4 Integer Functions and Elementary Number Theory}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\begin{document}
+	\maketitle
+	\section*{Ceil and Floor}
+	$\ceil*{x} = \floor*{x}$ \hspace{0.5cm} if and only if $x$ is an integer,\\
+	$\ceil*{x} = \floor*{x} + 1$ \hspace{0.5cm}  if and only if $x$ is not an integer;\\
+	$\floor*{-x} = -\ceil*{x};$  \hspace{0.5cm} $x - 1 < \floor*{x} \leq x \leq \ceil*{x} < x+1$.
+\end{document}
