@@ -36,7 +36,19 @@ The quantity $\dbinom{n}{k}$, read \emph{''n choose k''}, is a \emph{binomial co
 \section*{Operating on Binomial Coefficients}
 
 \subsection*{A. Representation by factorials.}
+  $\dbinom{n}{k} = \dfrac{n!}{k!(n-k)!}$, integer $n \leq$ integer $k \geq 0$
 \subsection*{B. Symmetry condition.}
+$\dbinom{n}{k} = \dbinom{n}{n-k}$, integer $n \leq$ integer $k$.
+
+  for example:
+  \begin{tabular}{ c| c c c c c c c c c c}
+    n & k=0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9\\ 
+    \hline
+    8 & 1 & 8 & 28 & 56 & 70 & 56 & 28 & 8 & 1 & 0 \\  
+    9 & 1 & 9 & 36 & 84 & 126 & 126 & 84 & 36 & 9 & 1    
+  \end{tabular}
+
+  notice the symetry about 4 and 4.5 for n=8 & n=9 repsectively
 \subsection*{C. Moving in and out of parentheses.}
 \subsection*{D. Addition formula.}
 \subsection*{E. Summation formulas.}
