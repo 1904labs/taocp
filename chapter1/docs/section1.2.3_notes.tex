@@ -31,7 +31,7 @@
 
    If the above limits exits the summation is called {\sl convergent} otherwise its a {\sl divergent} summation.
 
-   Four algebraic oerations on summations ---
+   Four algebraic operations on summations ---
 
    \begin{enumerate}
      \begin{item}
@@ -60,7 +60,7 @@
    
    Bracket Notation and {\sl Kronecker delta}
 
-   $$[\mbox{statment}] = \Biggr\{\begin{array}{ll} 1 & \mbox{if the statement is true}\\
+   $$[\mbox{statement}] = \Biggr\{\begin{array}{ll} 1 & \mbox{if the statement is true}\\
      0 & \mbox{if the statement is false.}
      \end{array}
    $$
@@ -81,10 +81,25 @@
   \begin{equation}
     \prod_{R(j)}a_j
   \end{equation}
-  
 
-  
-%\end{slide}
+  {\large \bf Notes from Concrete Math}
 
+  {\bf Delimited form of summation}
+  \begin{equation}
+    \sum_{k=1}^{n} a_k 
+  \end{equation}
 
+  (2) is delemited form of summation.
+  In Above each $a_k$ is a term.
+  Incidentally the quantity after $\sum$ (here $a_k$) is called {\it summand}.
+  The index variable $k$ is said to be {\it bound} to $\sum$ sign because $k$ in $a_k$ is unrelated to appearances of $k$ outside Sigma-notation.
+
+  {\bf Generalized Form of summation}
+  It turns of that a generazlized form of summation is even more useful than the delimited form: We simply write one or more conditions under the $\sum$ to specify the set of indices over which summation should take place.Example
+
+  \begin{equation}
+    \sum_{\scriptstyle 1 \le k \le n \atop \scriptstyle {k odd}} a_k
+  \end{equation}
+
+  Efficiency of computation is not same as efficiency of understanding.
 \end{document}
